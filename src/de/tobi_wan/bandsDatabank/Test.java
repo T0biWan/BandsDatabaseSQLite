@@ -27,18 +27,19 @@ public class Test {
    public static void main(String [] args) {
       initialiseAttributes();
       connect(dbPath);
-      createTable(createTableBands);
-      createTable(createTableKonzerte);
-      createTable(createTableKonzerteBands);
-      insertData(InsertIntoBands, bands);
-      insertData(InsertIntoKonzerte, konzerte);
-      insertData(InsertIntoKonzerteBands, konzerteBands);
+      // createTable(createTableBands);
+      // createTable(createTableKonzerte);
+      // createTable(createTableKonzerteBands);
+      // insertData(InsertIntoBands, bands);
+      // insertData(InsertIntoKonzerte, konzerte);
+      // insertData(InsertIntoKonzerteBands, konzerteBands);
       // printResultSet("SELECT * FROM Bands");
       // printResultSet("SELECT * FROM Konzerte");
       // printResultSet("SELECT * FROM KonzerteBands");
-      dropTable("Bands");
-      dropTable("Konzerte");
-      dropTable("KonzerteBands");
+      // dropTable("Bands");
+      // dropTable("Konzerte");
+      // dropTable("KonzerteBands");
+      printResultSet("SELECT KID, Konzert, Ort FROM Konzerte");
       disconnect();
    }
 
@@ -60,7 +61,7 @@ public class Test {
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         s.println(dbo.generateTableFromQuery(sqlDMLStatement));
+         dbo.generateTableFromQuery(sqlDMLStatement);
       } catch (SQLException e) {
          e.printStackTrace();
       }

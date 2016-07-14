@@ -54,7 +54,7 @@ public class CreateTablesAndInsertData {
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         s.println(dbo.generateTableFromQuery(sqlDMLStatement));
+         dbo.generateTableFromQuery(sqlDMLStatement);
       } catch (SQLException e) {
          e.printStackTrace();
       }
