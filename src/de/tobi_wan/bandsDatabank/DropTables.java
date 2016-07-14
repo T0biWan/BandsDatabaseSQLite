@@ -16,8 +16,8 @@ public class DropTables {
       initialiseAttributes();
       connect(dbPath);
       dropTable("Bands");
-      dropTable("Konzerte");
-      dropTable("KonzerteBands");
+      dropTable("Concerts");
+      dropTable("ConcertsBands");
       disconnect();
    }
 
@@ -29,7 +29,7 @@ public class DropTables {
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.printTableFromQuery(sqlDMLStatement);
+         dbo.tableOutOfQuery(sqlDMLStatement).printTable();
       } catch (SQLException e) {
          e.printStackTrace();
       }

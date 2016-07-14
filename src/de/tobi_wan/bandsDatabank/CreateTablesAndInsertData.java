@@ -15,24 +15,24 @@ public class CreateTablesAndInsertData {
    static DatabaseOperationsSQLite dbo;
    static IOStreamTableCSV         io;
    static Table                    bands;
-   static Table                    konzerte;
-   static Table                    konzerteBands;
+   static Table                    concerts;
+   static Table                    concertsBands;
    static String                   createTableBands;
-   static String                   createTableKonzerte;
-   static String                   createTableKonzerteBands;
+   static String                   createTableConcerts;
+   static String                   createTableConcertsBands;
    static String                   InsertIntoBands;
-   static String                   InsertIntoKonzerte;
-   static String                   InsertIntoKonzerteBands;
+   static String                   InsertIntoConcerts;
+   static String                   InsertIntoConcertsBands;
 
    public static void main(String [] args) {
       initialiseAttributes();
       connect(dbPath);
       createTable(createTableBands);
-      createTable(createTableKonzerte);
-      createTable(createTableKonzerteBands);
+      createTable(createTableConcerts);
+      createTable(createTableConcertsBands);
       insertData(InsertIntoBands, bands);
-      insertData(InsertIntoKonzerte, konzerte);
-      insertData(InsertIntoKonzerteBands, konzerteBands);
+      insertData(InsertIntoConcerts, concerts);
+      insertData(InsertIntoConcertsBands, concertsBands);
       disconnect();
    }
 
@@ -42,19 +42,19 @@ public class CreateTablesAndInsertData {
       dbo = new DatabaseOperationsSQLite();
       io = new IOStreamTableCSV(";");
       bands = readCSVIntoTable("data/bands.csv");
-      konzerte = readCSVIntoTable("data/konzerte.csv");
-      konzerteBands = readCSVIntoTable("data/konzerteBands.csv");
-      createTableBands = "CREATE TABLE IF NOT EXISTS  Bands (BID INT PRIMARY KEY NOT NULL, Band TEXT)";
-      createTableKonzerte = "CREATE TABLE IF NOT EXISTS  Konzerte (KID INT PRIMARY KEY NOT NULL, Konzert TEXT, Datum TEXT, Ort TEXT)";
-      createTableKonzerteBands = "CREATE TABLE IF NOT EXISTS  KonzerteBands (KID INT, BID INT, FOREIGN KEY(KID) REFERENCES Konzerte(KID), FOREIGN KEY(BID) REFERENCES Bands(BID))";
+      concerts = readCSVIntoTable("data/concerts.csv");
+      concertsBands = readCSVIntoTable("data/concertsBands.csv");
+      createTableBands = "CREATE TABLE IF NOT EXISTS Bands (BID INT PRIMARY KEY NOT NULL, Band TEXT)";
+      createTableConcerts = "CREATE TABLE IF NOT EXISTS Concerts (CID INT PRIMARY KEY NOT NULL, Concert TEXT, Date TEXT, Place TEXT)";
+      createTableConcertsBands = "CREATE TABLE IF NOT EXISTS ConcertsBands (CID INT, BID INT)";
       InsertIntoBands = "INSERT INTO Bands (BID, Band) VALUES (?, ?)";
-      InsertIntoKonzerte = "INSERT INTO Konzerte (KID, Konzert, Datum, Ort) VALUES (?, ?, ?, ?)";
-      InsertIntoKonzerteBands = "INSERT INTO KonzerteBands (KID, BID) VALUES (?, ?)";
+      InsertIntoConcerts = "INSERT INTO Concerts (CID, Concert, Date, Place) VALUES (?, ?, ?, ?)";
+      InsertIntoConcertsBands = "INSERT INTO ConcertsBands (CID, BID) VALUES (?, ?)";
    }
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.printTableFromQuery(sqlDMLStatement);
+         dbo.tableOutOfQuery(sqlDMLStatement).printTable();
       } catch (SQLException e) {
          e.printStackTrace();
       }
