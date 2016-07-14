@@ -23,7 +23,7 @@ public class Query {
    public static void main(String [] args) {
       initialiseAttributes();
       connect(dbPath);
-      printResultSet(countBandsISawStatement);
+      printResultSet(joinAllTablesStatement);
       disconnect();
    }
 
@@ -43,7 +43,7 @@ public class Query {
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.generateTableFromQuery(sqlDMLStatement);
+         dbo.generateTableFromQueryWithHead(sqlDMLStatement);
       } catch (SQLException e) {
          e.printStackTrace();
       }

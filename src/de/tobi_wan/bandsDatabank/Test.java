@@ -39,7 +39,7 @@ public class Test {
       // dropTable("Bands");
       // dropTable("Konzerte");
       // dropTable("KonzerteBands");
-      printResultSet("SELECT KID, Konzert, Ort FROM Konzerte");
+      printResultSet("SELECT * FROM Bands");
       disconnect();
    }
 
@@ -61,7 +61,7 @@ public class Test {
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.generateTableFromQuery(sqlDMLStatement);
+         dbo.generateTableFromQueryWithHead(sqlDMLStatement);
       } catch (SQLException e) {
          e.printStackTrace();
       }
