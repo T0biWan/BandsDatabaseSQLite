@@ -23,7 +23,7 @@ public class Query {
    public static void main(String [] args) {
       initialiseAttributes();
       connect(dbPath);
-      printResultSet(joinAllTablesStatement);
+      printResultSet(joinAllTablesStatement + " LIMIT 25");
       disconnect();
    }
 
@@ -43,7 +43,7 @@ public class Query {
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.generateTableFromQueryWithHead(sqlDMLStatement);
+         dbo.printTableFromQuery(sqlDMLStatement);
       } catch (SQLException e) {
          e.printStackTrace();
       }

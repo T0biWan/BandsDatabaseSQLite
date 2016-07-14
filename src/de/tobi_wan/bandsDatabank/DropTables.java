@@ -29,7 +29,7 @@ public class DropTables {
 
    private static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.generateTableFromQueryWithHead(sqlDMLStatement);
+         dbo.printTableFromQuery(sqlDMLStatement);
       } catch (SQLException e) {
          e.printStackTrace();
       }
