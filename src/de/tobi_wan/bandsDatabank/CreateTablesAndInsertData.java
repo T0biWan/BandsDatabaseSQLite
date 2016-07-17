@@ -8,11 +8,11 @@ public class CreateTablesAndInsertData extends DatabaseOperations {
       createTable(createTableBands);
       createTable(createTableConcerts);
       createTable(createTableConcertsBands);
-      createTable(createTableITunes);
+      createTable(createTableiTunes);
       insertData(InsertIntoBands, bands);
       insertData(InsertIntoConcerts, concerts);
       insertData(InsertIntoConcertsBands, concertsBands);
-      insertData(InsertIntoITunes, iTunes);
+      insertData(InsertIntoiTunes, iTunes);
       disconnect();
    }
 

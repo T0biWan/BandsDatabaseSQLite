@@ -15,18 +15,22 @@ public class DatabaseOperations {
    static String                   dbPath;
    static DatabaseOperationsSQLite dbo;
    static IOStreamTableCSV         io;
+
    static Table                    bands;
    static Table                    concerts;
    static Table                    concertsBands;
    static Table                    iTunes;
+
    static String                   createTableBands;
    static String                   createTableConcerts;
    static String                   createTableConcertsBands;
-   static String                   createTableITunes;
+   static String                   createTableiTunes;
+
    static String                   InsertIntoBands;
    static String                   InsertIntoConcerts;
    static String                   InsertIntoConcertsBands;
-   static String                   InsertIntoITunes;
+   static String                   InsertIntoiTunes;
+
    static String                   joinAllTables;
    static String                   joinAllTablesStatement;
    static String                   countBandsStatement;
@@ -53,12 +57,12 @@ public class DatabaseOperations {
       createTableBands = "CREATE TABLE IF NOT EXISTS Bands (BID INT PRIMARY KEY NOT NULL, Band TEXT)";
       createTableConcerts = "CREATE TABLE IF NOT EXISTS Concerts (CID INT PRIMARY KEY NOT NULL, Concert TEXT, Date TEXT, Place TEXT)";
       createTableConcertsBands = "CREATE TABLE IF NOT EXISTS ConcertsBands (CID INT, BID INT)";
-      createTableITunes = "CREATE TABLE IF NOT EXISTS iTunes (Name, Duration, Interpret, Album, Genre, Year, Commentary, Space)";
+      createTableiTunes = "CREATE TABLE IF NOT EXISTS iTunes (Title, Duration, Band, Album, Genre, Year, Comment)";
 
       InsertIntoBands = "INSERT INTO Bands (BID, Band) VALUES (?, ?)";
       InsertIntoConcerts = "INSERT INTO Concerts (CID, Concert, Date, Place) VALUES (?, ?, ?, ?)";
       InsertIntoConcertsBands = "INSERT INTO ConcertsBands (CID, BID) VALUES (?, ?)";
-      InsertIntoITunes = "INSERT INTO iTunes (Name, Duration, Interpret, Album, Genre, Year, Commentary, Space) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+      InsertIntoiTunes = "INSERT INTO iTunes (Title, Duration, Band, Album, Genre, Year, Comment, BID) VALUES (?, ?, ?, ?, ?, ?, ?)";
 
       joinAllTables = " FROM Bands INNER JOIN ConcertsBands ON Bands.BID = ConcertsBands.BID INNER JOIN Concerts On Concerts.CID = ConcertsBands.CID ";
       countBandsStatement = "SELECT COUNT(Band) AS Bands FROM Bands";
@@ -70,7 +74,7 @@ public class DatabaseOperations {
       joinAllTablesStatement = "SELECT Place, Date, Concert, Band" + joinAllTables + "ORDER BY Concert";
       countInterpreten = "SELECT COUNT(DISTINCT Interpret) FROM iTunes";
       countSongsPerInterpret = "SELECT Interpret, COUNT(Name) FROM iTunes GROUP BY Interpret ORDER BY COUNT(Interpret) DESC";
-      countMrMetalPlusSongsPerInterpret = "SELECT Interpret, COUNT(Name) FROM iTunes WHERE Commentary = 'Mr. Metal +' GROUP BY Interpret ORDER BY COUNT(Interpret) DESC";
+      countMrMetalPlusSongsPerInterpret = "SELECT Band, COUNT(Title) FROM iTunes WHERE Comment = 'Mr. Metal +' GROUP BY Band ORDER BY COUNT(Band) DESC";
    }
 
    public static void writeResultSetCSV(String path, String sqlDMLStatement) {

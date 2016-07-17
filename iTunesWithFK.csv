@@ -1,4 +1,4 @@
-﻿Titel;Duration;Band;Album;Genre;Year;Comment
+Titel;Duration;BID;Album;Genre;Year;Comment
 Atomic Devastation;05:22;Abadden;New Wave Of Thrash Metal;Thrash Metal;2015;Mr. Metal
 Morgen Auch Nicht;02:12;Abfukk;Aggropunk Vol. 2;Punk Rock;2011;Mr. Metal +
 Keine Kompromisse Mehr;02:43;Abfukk;Aggropunk Vol. 3;Punk Rock;2013;Mr. Metal +
@@ -83,26 +83,26 @@ Shake Your Foundations;04:07;AC/DC;Who Made Who;Hard Rock;1986;Mr. Metal
 Sink The Pink;04:11;AC/DC;Who Made Who;Hard Rock;1986;Mr. Metal
 Who Made Who;03:24;AC/DC;Who Made Who;Hard Rock;1986;Mr. Metal
 You Shook Me All Night Long;03:30;AC/DC;Who Made Who;Hard Rock;1986;Mr. Metal
-Balls To The Walls;05:43;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Fight It Back;03:30;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Guardian Of The Night;04:25;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Head Over Heels;04:19;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-London Leatherboys;03:58;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Losers And Winners;04:19;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Losing More Than You've Ever Had;05:05;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Love Child;03:35;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Turn Me On;05:12;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Winterdreams;04:45;Accept;Balls To The Wall;Heavy Metal;1983;Mr. Metal
-Fast As A Shark;03:50;Accept;Bruetal Legend;Soundtrack;2010;Mr. Metal +
-Balls to the Wall;05:43;Accept;Old School Heavy Metal;Heavy Metal;2015;Mr. Metal
-Princess of the Dawn;06:17;Accept;Old School Heavy Metal;Heavy Metal;2015;Mr. Metal
-Son Of A Bitch;03:45;Accept;Old School Heavy Metal;Heavy Metal;2015;Mr. Metal
+Balls To The Walls;05:43;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Fight It Back;03:30;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Guardian Of The Night;04:25;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Head Over Heels;04:19;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+London Leatherboys;03:58;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Losers And Winners;04:19;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Losing More Than You've Ever Had;05:05;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Love Child;03:35;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Turn Me On;05:12;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Winterdreams;04:45;3;Balls To The Wall;Heavy Metal;1983;Mr. Metal
+Fast As A Shark;03:50;3;Bruetal Legend;Soundtrack;2010;Mr. Metal +
+Balls to the Wall;05:43;3;Old School Heavy Metal;Heavy Metal;2015;Mr. Metal
+Princess of the Dawn;06:17;3;Old School Heavy Metal;Heavy Metal;2015;Mr. Metal
+Son Of A Bitch;03:45;3;Old School Heavy Metal;Heavy Metal;2015;Mr. Metal
 You Shook Me All Night Long;03:30;ACDC;Masterpieces of Rock 'n' Roll History;VA;2015;Mr. Metal
 I Don't Want to Miss a Thing - From the Touchstone film, Armageddon;05:00;Aerosmith;Masterpieces of Rock 'n' Roll History;VA;2015;Mr. Metal
 Born in Uniform;03:04;Aggravator;New Wave Of Thrash Metal;Thrash Metal;2015;Mr. Metal
 Dehumanized;04:50;Aggression;New Wave Of Thrash Metal;Thrash Metal;2015;Mr. Metal
 Aggropunk;01:52;Aggropunk;Aggropunk Vol. 2;Punk Rock;2011;Mr. Metal
-Gotta Go;03:35;Agnostic Front;Something's Gotta Give;Hardcore;1998;Mr. Metal +
+Gotta Go;03:35;6;Something's Gotta Give;Hardcore;1998;Mr. Metal +
 Ahead To The Sea;04:18;Ahead To The Sea;Urban Pirate Sound System;Folk Punk;2005;Mr. Metal
 Consuming;03:42;Ahead To The Sea;Urban Pirate Sound System;Folk Punk;2005;Mr. Metal
 Drifting Away;03:39;Ahead To The Sea;Urban Pirate Sound System;Folk Punk;2005;Mr. Metal +
@@ -117,7 +117,7 @@ No Excuse;03:07;Ahead To The Sea;Urban Pirate Sound System;Folk Punk;2005;Mr. Me
 Not My Country;03:07;Ahead To The Sea;Urban Pirate Sound System;Folk Punk;2005;Mr. Metal +
 Shout;02:27;Ahead To The Sea;Urban Pirate Sound System;Folk Punk;2005;Mr. Metal
 Sing With The Sirens;03:19;Ahead To The Sea;Urban Pirate Sound System;Folk Punk;2005;Mr. Metal +
-Born To Kill;03:40;Airbourne;Unleash the Fury;Heavy Metal;2015;Mr. Metal
+Born To Kill;03:40;8;Unleash the Fury;Heavy Metal;2015;Mr. Metal
 The Avengers;02:04;Alan Silvestri;Epic Soundtracks;Soundtrack;2015;Mr. Metal
 Fast Forward;02:57;Alan Silvestri;Epic Soundtracks;Soundtrack;2015;Mr. Metal
 Gefressen Werden;02:11;Alarmsignal;Aggropunk Vol. 3;Punk Rock;2013;Mr. Metal
@@ -126,53 +126,53 @@ Leben Is' Mehr;01:50;Alarmsignal;Revolutionaere Sterben Nie!;Punk Rock;2007;Mr. 
 Wert Des Lebens;02:03;Alarmsignal;Revolutionaere Sterben Nie!;Punk Rock;2007;Mr. Metal +
 Wir Leben;02:24;Alarmsignal;Revolutionaere Sterben Nie!;Punk Rock;2007;Mr. Metal +
 Oh, How The Mighty Have Fallen;05:32;Alesana;Post-Hardcore Crash Course;Post-Hardcore;2015;Mr. Metal
-Back Through Time;05:03;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal +
-Barrett's Privateers;04:40;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal
-Buckfast Powersmash;02:33;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal
-Death Throes Of The Terrorsquid;07:47;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal
-I Am A Cider Drinker;02:59;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal +
-Midget Saw;03:19;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal +
-Rum;03:29;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal
-Rumpelkombo;00:07;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal
-Scraping The Barrel;04:40;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal +
-Shipwrecked;03:31;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal +
-The Sunk'n Norwegian;04:07;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal +
-Swashbuckled;03:53;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal
-You Are A Pirate;01:33;Alestorm;Back Through Time;Pirate Metal;2011;Mr. Metal +
-Black Sails At Midnight;03:31;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
-Chronicles Of Vengeance;06:25;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
-Keelhauled;03:42;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
-Leviathan;05:56;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
-No Quarter;03:02;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
-Pirate Song;04:03;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
-The Quest;04:57;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
-That Famous Ol' Spiced;04:46;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
-To The End Of Our Days;06:23;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
-Wolves Of The Sea;03:34;Alestorm;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
-Captain Morgan's Revenge;06:43;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
-Death Before The Mast;03:18;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
-Flower Of Scotland;02:38;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
-The Huntmaster;05:00;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
-Nancy The Tavern Wench;04:53;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
-Of Treasure;02:58;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
-Over The Seas;03:56;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
-Set Sail And Conquer;04:38;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
-Terror On The High Seas;03:51;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
-Wenches & Mead;03:42;Alestorm;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
-Drink;03:22;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal +
-Hangover;03:42;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal +
-Magnetic North;03:48;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
-Mead From Hell;03:42;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
-Quest for Ships;04:34;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
-Surf Squid Warfare;03:59;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
-Walk the Plank;04:05;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
-Wooden Leg!;02:45;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
-1741 (The Battle of Cartagena);07:17;Alestorm;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal +
+Back Through Time;05:03;11;Back Through Time;Pirate Metal;2011;Mr. Metal +
+Barrett's Privateers;04:40;11;Back Through Time;Pirate Metal;2011;Mr. Metal
+Buckfast Powersmash;02:33;11;Back Through Time;Pirate Metal;2011;Mr. Metal
+Death Throes Of The Terrorsquid;07:47;11;Back Through Time;Pirate Metal;2011;Mr. Metal
+I Am A Cider Drinker;02:59;11;Back Through Time;Pirate Metal;2011;Mr. Metal +
+Midget Saw;03:19;11;Back Through Time;Pirate Metal;2011;Mr. Metal +
+Rum;03:29;11;Back Through Time;Pirate Metal;2011;Mr. Metal
+Rumpelkombo;00:07;11;Back Through Time;Pirate Metal;2011;Mr. Metal
+Scraping The Barrel;04:40;11;Back Through Time;Pirate Metal;2011;Mr. Metal +
+Shipwrecked;03:31;11;Back Through Time;Pirate Metal;2011;Mr. Metal +
+The Sunk'n Norwegian;04:07;11;Back Through Time;Pirate Metal;2011;Mr. Metal +
+Swashbuckled;03:53;11;Back Through Time;Pirate Metal;2011;Mr. Metal
+You Are A Pirate;01:33;11;Back Through Time;Pirate Metal;2011;Mr. Metal +
+Black Sails At Midnight;03:31;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
+Chronicles Of Vengeance;06:25;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
+Keelhauled;03:42;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
+Leviathan;05:56;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
+No Quarter;03:02;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
+Pirate Song;04:03;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
+The Quest;04:57;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
+That Famous Ol' Spiced;04:46;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
+To The End Of Our Days;06:23;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal
+Wolves Of The Sea;03:34;11;Black Sails At Midnight;Pirate Metal;2009;Mr. Metal +
+Captain Morgan's Revenge;06:43;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
+Death Before The Mast;03:18;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
+Flower Of Scotland;02:38;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
+The Huntmaster;05:00;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
+Nancy The Tavern Wench;04:53;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
+Of Treasure;02:58;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
+Over The Seas;03:56;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
+Set Sail And Conquer;04:38;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal
+Terror On The High Seas;03:51;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
+Wenches & Mead;03:42;11;Captain Morgan's Revenge;Pirate Metal;2008;Mr. Metal +
+Drink;03:22;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal +
+Hangover;03:42;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal +
+Magnetic North;03:48;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
+Mead From Hell;03:42;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
+Quest for Ships;04:34;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
+Surf Squid Warfare;03:59;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
+Walk the Plank;04:05;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
+Wooden Leg!;02:45;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal
+1741 (The Battle of Cartagena);07:17;11;Sunset On The Golden Age;Pirate Metal;2014;Mr. Metal +
 Courtyard Apocalypse;02:01;Alexandre Desplat;Epic Soundtracks;Soundtrack;2015;Mr. Metal
 Statues;02:23;Alexandre Desplat;Epic Soundtracks;Soundtrack;2015;Mr. Metal
 Accidents;04:10;Alexisonfire;Post-Hardcore Crash Course;Post-Hardcore;2015;Mr. Metal
-No More Mr. Nice Guy - Remastered Version;03:05;Alice Cooper;Masterpieces of Rock 'n' Roll History;VA;2015;Mr. Metal
-Poison;04:30;Alice Cooper;Trash;Hard Rock;1989;Mr. Metal +
+No More Mr. Nice Guy - Remastered Version;03:05;12;Masterpieces of Rock 'n' Roll History;VA;2015;Mr. Metal
+Poison;04:30;12;Trash;Hard Rock;1989;Mr. Metal +
 Greyson;02:13;All Shall Perish;The Price Of Existence;Deathcore;2006;Mr. Metal
 Hold On;02:58;All That Remains;Masterpieces of Rock 'n' Roll History;VA;2015;Mr. Metal
 Automatic;03:25;Amaranthe;Amaranthe;Metalcore;2011;Mr. Metal +
@@ -183,18 +183,18 @@ Serendipity;03:26;Amaranthe;Amaranthe;Metalcore;2011;Mr. Metal +
 1.000.000 Lightyears - Live;03:27;Amaranthe;MASSIVE ADDICTIVE;Metalcore;2014;Mr. Metal
 A Horse with No Name;04:11;America;Masterpieces of Rock 'n' Roll History;VA;2015;Mr. Metal
 A Horse With No Name;04:08;America;Top 500 Rock-Songs;Rock;1971;Mr. Metal +
-Destroyer Of The Universe;03:41;Amon Amarth;Surtur Rising;Pagan Metal;2011;Mr. Metal +
-Guardians Of Asgaard;04:23;Amon Amarth;Twilight Of The Thunder God;Pagan Metal;2008;Mr. Metal +
-Where Is Your God?;03:11;Amon Amarth;Twilight Of The Thunder God;Pagan Metal;2008;Mr. Metal +
-Across The Rainbow Bridge;04:47;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
-...and Soon The World Will Cease To Be;06:55;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
-Bloodshed;05:13;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
-Death In Fire;04:53;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal +
-Down The Slopes Of Death;04:07;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
-For The Stabwounds In Our Bac;04:54;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
-Thousand Years Of Oppression;05:39;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
-Versus The World;05:19;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
-Where Silent Gods Stand Guard;05:46;Amon Amarth;Versus The World;Pagan Metal;2002;Mr. Metal
+Destroyer Of The Universe;03:41;13;Surtur Rising;Pagan Metal;2011;Mr. Metal +
+Guardians Of Asgaard;04:23;13;Twilight Of The Thunder God;Pagan Metal;2008;Mr. Metal +
+Where Is Your God?;03:11;13;Twilight Of The Thunder God;Pagan Metal;2008;Mr. Metal +
+Across The Rainbow Bridge;04:47;13;Versus The World;Pagan Metal;2002;Mr. Metal
+...and Soon The World Will Cease To Be;06:55;13;Versus The World;Pagan Metal;2002;Mr. Metal
+Bloodshed;05:13;13;Versus The World;Pagan Metal;2002;Mr. Metal
+Death In Fire;04:53;13;Versus The World;Pagan Metal;2002;Mr. Metal +
+Down The Slopes Of Death;04:07;13;Versus The World;Pagan Metal;2002;Mr. Metal
+For The Stabwounds In Our Bac;04:54;13;Versus The World;Pagan Metal;2002;Mr. Metal
+Thousand Years Of Oppression;05:39;13;Versus The World;Pagan Metal;2002;Mr. Metal
+Versus The World;05:19;13;Versus The World;Pagan Metal;2002;Mr. Metal
+Where Silent Gods Stand Guard;05:46;13;Versus The World;Pagan Metal;2002;Mr. Metal
 Time To Say Goodbye (Con Te Partiro);04:08;Andrea Bocelli;Romanza;Klassik;2004;Mr. Metal +
 Time To Say Goodbye;04:07;Andrea Bocelli;Top 100;Charts;1997;Mr. Metal
 Scheissegal;02:24;Anfall;Aggropunk Vol. 2;Punk Rock;2011;Mr. Metal
@@ -213,20 +213,20 @@ March Of The Crabs;02:35;Anvil;Bruetal Legend;Soundtrack;2010;Mr. Metal +
 Tag Team;04:12;Anvil;Bruetal Legend;Soundtrack;2010;Mr. Metal
 Metal On Metal;03:57;Anvil;Old School Heavy Metal;Heavy Metal;2015;Mr. Metal
 Sulphur Injection;07:06;Apostasy;Bruetal Legend;Soundtrack;2010;Mr. Metal
-As the Pages Burn;04:01;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal +
-Avalanche;04:40;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-Down to Nothing;03:48;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-Graveyard of Dreams;01:10;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-Never Forgive, Never Forget;03:44;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal +
-No More Regrets;04:06;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal +
-Not Long for This World;03:29;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-On and On;04:04;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal +
-Shadow on the Wall;03:04;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-Stolen Life;02:59;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-Tempore Nihil Sanat (Prelude in F minor);01:11;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-Time Is Black;05:23;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal
-War Eternal;04:16;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal +
-You Will Know My Name;04:37;Arch Enemy;War Eternal;Melodic Death Metal;2014;Mr. Metal +
+As the Pages Burn;04:01;17;War Eternal;Melodic Death Metal;2014;Mr. Metal +
+Avalanche;04:40;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+Down to Nothing;03:48;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+Graveyard of Dreams;01:10;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+Never Forgive, Never Forget;03:44;17;War Eternal;Melodic Death Metal;2014;Mr. Metal +
+No More Regrets;04:06;17;War Eternal;Melodic Death Metal;2014;Mr. Metal +
+Not Long for This World;03:29;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+On and On;04:04;17;War Eternal;Melodic Death Metal;2014;Mr. Metal +
+Shadow on the Wall;03:04;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+Stolen Life;02:59;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+Tempore Nihil Sanat (Prelude in F minor);01:11;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+Time Is Black;05:23;17;War Eternal;Melodic Death Metal;2014;Mr. Metal
+War Eternal;04:16;17;War Eternal;Melodic Death Metal;2014;Mr. Metal +
+You Will Know My Name;04:37;17;War Eternal;Melodic Death Metal;2014;Mr. Metal +
 Tread The Blade;03:19;Arkayic Revolt;New Wave Of Thrash Metal;Thrash Metal;2015;Mr. Metal
 Vyjdu Ja Na Voljushku;03:45;Arkona;Decade Of Glory;Pagan Metal;2013;Mr. Metal +
 A Beautiful Mistake;04:34;As Blood Runs Black;Allegiance;Deathcore;2006;Mr. Metal
@@ -285,18 +285,18 @@ Stadt Ohne Licht;03:38;Betontod;Glaubeliebehoffnung;Punk Rock;2010;Mr. Metal +
 All Die Jahre;02:25;Betontod;Schwarzes Blut;Punk Rock;2006;Mr. Metal
 Schwarzes Blut;02:32;Betontod;Schwarzes Blut;Punk Rock;2006;Mr. Metal +
 Viva Punk!;03:23;Betontod;Schwarzes Blut;Punk Rock;2006;Mr. Metal +
-Berserker;03:55;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal +
-Der Moench;03:34;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal +
-Der Raecher;05:00;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal
-Die Wilde Jagd;03:44;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal +
-Fest Der Trolle;04:53;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal +
-Heimgang;06:15;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal
-Herr Des Waldes;04:17;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal
-Normannenzorn;03:53;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal +
-Odins Soehne;03:58;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal
-Ragnaroek;04:49;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal +
-Schlachtklaenge;04:17;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal +
-Weingeist;03:33;Bifroest;Heidenmetal;Pagan Metal;2010;Mr. Metal
+Berserker;03:55;25;Heidenmetal;Pagan Metal;2010;Mr. Metal +
+Der Moench;03:34;25;Heidenmetal;Pagan Metal;2010;Mr. Metal +
+Der Raecher;05:00;25;Heidenmetal;Pagan Metal;2010;Mr. Metal
+Die Wilde Jagd;03:44;25;Heidenmetal;Pagan Metal;2010;Mr. Metal +
+Fest Der Trolle;04:53;25;Heidenmetal;Pagan Metal;2010;Mr. Metal +
+Heimgang;06:15;25;Heidenmetal;Pagan Metal;2010;Mr. Metal
+Herr Des Waldes;04:17;25;Heidenmetal;Pagan Metal;2010;Mr. Metal
+Normannenzorn;03:53;25;Heidenmetal;Pagan Metal;2010;Mr. Metal +
+Odins Soehne;03:58;25;Heidenmetal;Pagan Metal;2010;Mr. Metal
+Ragnaroek;04:49;25;Heidenmetal;Pagan Metal;2010;Mr. Metal +
+Schlachtklaenge;04:17;25;Heidenmetal;Pagan Metal;2010;Mr. Metal +
+Weingeist;03:33;25;Heidenmetal;Pagan Metal;2010;Mr. Metal
 Come On Home ;04:19;Big M;Scrubs 8;Soundtrack;2009;Mr. Metal
 White Wedding;08:27;Billy Idol;Masterpieces of Rock 'n' Roll History;VA;2015;Mr. Metal
 Red Flag;03:17;Billy Talent;Billy Talent II;Alternative Rock;2006;Mr. Metal +
@@ -308,9 +308,9 @@ Take Control;04:08;Black Bomb A;Enemies of the State;Metalcore;2012;Mr. Metal +
 Beds Are Burning;04:10;Black Bomb A;One Sound Bite To React;Metalcore;2006;Mr. Metal +
 In This River;03:56;Black Label Society;Skullage;Heavy Metal;2009;Mr. Metal +
 Parade Of The Dead;03:37;Black Label Society;Unleash the Fury;Heavy Metal;2015;Mr. Metal
-Soeldnerschwein;04:37;Black Messiah;First War Of The World;Pagan Metal;2009;Mr. Metal +
-Moskau;04:46;Black Messiah;Of Myths And Legends;Pagan Metal;2006;Mr. Metal +
-Sauflied;04:14;Black Messiah;Of Myths And Legends;Pagan Metal;2006;Mr. Metal +
+Soeldnerschwein;04:37;27;First War Of The World;Pagan Metal;2009;Mr. Metal +
+Moskau;04:46;27;Of Myths And Legends;Pagan Metal;2006;Mr. Metal +
+Sauflied;04:14;27;Of Myths And Legends;Pagan Metal;2006;Mr. Metal +
 Children Of The Grave;05:17;Black Sabbath;Bruetal Legend;Soundtrack;2010;Mr. Metal +
 Never Say Die;03:50;Black Sabbath;Bruetal Legend;Soundtrack;2010;Mr. Metal +
 Symptom Of The Universe;06:30;Black Sabbath;Bruetal Legend;Soundtrack;2010;Mr. Metal
@@ -327,47 +327,47 @@ Luke's Wall / War Pigs;07:54;Black Sabbath;Paranoid;Heavy Metal;1970;Mr. Metal
 Paranoid;02:47;Black Sabbath;Paranoid;Heavy Metal;1970;Mr. Metal +
 Planet Caravan;04:22;Black Sabbath;Paranoid;Heavy Metal;1970;Mr. Metal
 Rat Salad;02:28;Black Sabbath;Paranoid;Heavy Metal;1970;Mr. Metal
-Are You Ready For Some Real German aerger?!;02:51;Blackshore;(Railway To) Blackshore;Black Metal;2008;Mr. Metal +
+Are You Ready For Some Real German aerger?!;02:51;29;(Railway To) Blackshore;Black Metal;2008;Mr. Metal +
 Hollow Bodies;03:01;blessthefall;Post-Hardcore Crash Course;Post-Hardcore;2015;Mr. Metal
-And The Story Ends;06:00;Blind Guardian;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
-Another Holy War;04:32;Blind Guardian;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
-Born In A Mourning Hall;05:14;Blind Guardian;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
-A Past And Future Secret;03:48;Blind Guardian;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
-Battle Of Sudden Flames;00:44;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Blood Tears;05:25;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Captured;00:26;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-The Curse Of Feanor;05:41;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-The Dark Elf;00:24;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-A Dark Passage;06:01;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-The Eldar;03:39;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Face The Truth;00:24;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Final Chapter: Thus Ends....;00:48;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Into The Storm;04:24;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Lammoth;00:29;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-The Minstrel;00:32;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Mirror, Mirror;05:06;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
-Nightfall;05:35;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
-Noldor;06:51;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
-Nom The Wise;00:33;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Out On The Water;00:45;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-The Steadfast;00:22;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Thorn;06:20;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-Time Stands Still;04:54;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
-War Of Wrath;01:50;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-When Sorrow Sang;04:25;Blind Guardian;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
-The Bard's Song - In The Forest;03:10;Blind Guardian;Somewhere Far Beyond;Power Metal;1992;Mr. Metal +
-Another Stranger Me;04:37;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-Carry The Blessed Home;04:05;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-Dead Sound Of Misery;05:18;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-The Edge;04:29;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-Fly;05:46;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-Lionheart;04:17;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-The New Order;04:54;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-Otherland;05:16;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal +
-Skalds And Shadows;03:14;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal +
-Straight Through The Mirror;05:50;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal +
-This Will Never End;05:07;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal
-Turn The Page;04:19;Blind Guardian;A Twist In The Myth;Power Metal;2006;Mr. Metal +
+And The Story Ends;06:00;32;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
+Another Holy War;04:32;32;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
+Born In A Mourning Hall;05:14;32;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
+A Past And Future Secret;03:48;32;Imaginations From The Other Side;Power Metal;1995;Mr. Metal
+Battle Of Sudden Flames;00:44;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Blood Tears;05:25;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Captured;00:26;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+The Curse Of Feanor;05:41;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+The Dark Elf;00:24;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+A Dark Passage;06:01;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+The Eldar;03:39;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Face The Truth;00:24;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Final Chapter: Thus Ends....;00:48;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Into The Storm;04:24;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Lammoth;00:29;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+The Minstrel;00:32;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Mirror, Mirror;05:06;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
+Nightfall;05:35;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
+Noldor;06:51;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
+Nom The Wise;00:33;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Out On The Water;00:45;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+The Steadfast;00:22;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Thorn;06:20;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+Time Stands Still;04:54;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal +
+War Of Wrath;01:50;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+When Sorrow Sang;04:25;32;Nightfall In Middle Earth;Power Metal;1998;Mr. Metal
+The Bard's Song - In The Forest;03:10;32;Somewhere Far Beyond;Power Metal;1992;Mr. Metal +
+Another Stranger Me;04:37;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+Carry The Blessed Home;04:05;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+Dead Sound Of Misery;05:18;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+The Edge;04:29;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+Fly;05:46;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+Lionheart;04:17;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+The New Order;04:54;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+Otherland;05:16;32;A Twist In The Myth;Power Metal;2006;Mr. Metal +
+Skalds And Shadows;03:14;32;A Twist In The Myth;Power Metal;2006;Mr. Metal +
+Straight Through The Mirror;05:50;32;A Twist In The Myth;Power Metal;2006;Mr. Metal +
+This Will Never End;05:07;32;A Twist In The Myth;Power Metal;2006;Mr. Metal
+Turn The Page;04:19;32;A Twist In The Myth;Power Metal;2006;Mr. Metal +
 Maria;04:51;Blondie;No Exit;New Wave;2001;Mr. Metal +
 I Saw A Chapel;04:29;Bloodline;Werewolf Training;Black Metal;2003;Mr. Metal
 Inhale Thorns;07:46;Bloodline;Werewolf Training;Black Metal;2003;Mr. Metal
