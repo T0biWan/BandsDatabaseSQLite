@@ -1,6 +1,8 @@
 package de.tobi_wan.bandsDatabank;
 
+import java.io.IOException;
 import java.sql.SQLException;
+import tobi_wan.IO.IOStreamTableCSV;
 import tobi_wan.dataStructure.Table;
 import tobi_wan.databaseOperations.DatabaseOperationsSQLite;
 import tobi_wan.support.StandardOutput;
@@ -11,6 +13,7 @@ public class Query {
    static StandardOutput           s;
    static String                   dbPath;
    static DatabaseOperationsSQLite dbo;
+   static IOStreamTableCSV         io;
    static String                   joinAllTables;
    static String                   joinAllTablesStatement;
    static String                   countBandsStatement;
@@ -24,7 +27,7 @@ public class Query {
    public static void main(String [] args) {
       initialiseAttributes();
       connect(dbPath);
-      printResultSet(SELECT + joinAllTables + "ORDER BY Concert LIMIT 25");
+      printResultSet(countBandsISawStatement);
       disconnect();
    }
 
@@ -32,6 +35,7 @@ public class Query {
       s = new StandardOutput("*", 80);
       dbPath = "db/bands.db";
       dbo = new DatabaseOperationsSQLite();
+      io = new IOStreamTableCSV(";");
       SELECT = "SELECT Place, Date, Concert, Band";
       joinAllTables = " FROM Bands INNER JOIN ConcertsBands ON Bands.BID = ConcertsBands.BID INNER JOIN Concerts On Concerts.CID = ConcertsBands.CID ";
       countBandsStatement = "SELECT COUNT(Band) AS Bands FROM Bands";
@@ -43,8 +47,18 @@ public class Query {
       joinAllTablesStatement = "SELECT Place, Date, Concert, Band" + joinAllTables + "ORDER BY Concert";
    }
 
+   private static void writeResultSetCSV(String path, String sqlDMLStatement) {
+      try {
+         io.writeCSVFromTable(path, dbo.tableOutOfQuery(sqlDMLStatement));
+      } catch (IOException | SQLException e) {
+         e.printStackTrace();
+      }
+   }
+
    private static void printResultSet(String sqlDMLStatement) {
       try {
+         Table x = new Table();
+         x.setTableName("");
          dbo.tableOutOfQuery(sqlDMLStatement).printTable();
       } catch (SQLException e) {
          e.printStackTrace();

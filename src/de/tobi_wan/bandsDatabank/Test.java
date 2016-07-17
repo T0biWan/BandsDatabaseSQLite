@@ -58,6 +58,14 @@ public class Test {
       InsertIntoConcertsBands = "INSERT INTO ConcertsBands (CID, BID) VALUES (?, ?)";
    }
 
+   private static void writeResultSetCSV(String path, String sqlDMLStatement) {
+      try {
+         io.writeCSVFromTable(path, dbo.tableOutOfQuery(sqlDMLStatement));
+      } catch (IOException | SQLException e) {
+         e.printStackTrace();
+      }
+   }
+
    private static void printResultSet(String sqlDMLStatement) {
       try {
          dbo.tableOutOfQuery(sqlDMLStatement).printTable();
