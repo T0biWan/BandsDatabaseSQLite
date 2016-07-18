@@ -11,39 +11,41 @@ import tobi_wan.support.StandardOutput;
 
 public class DatabaseOperations {
 
-   static StandardOutput           s;
-   static String                   dbPath;
-   static DatabaseOperationsSQLite dbo;
-   static IOStreamTableCSV         io;
+   protected static StandardOutput           s;
+   protected static String                   dbPath;
+   protected static DatabaseOperationsSQLite dbo;
+   protected static IOStreamTableCSV         io;
 
-   static Table                    bands;
-   static Table                    concerts;
-   static Table                    concertsBands;
-   static Table                    iTunes;
+   protected static Table                    bands;
+   protected static Table                    concerts;
+   protected static Table                    concertsBands;
+   protected static Table                    iTunes;
 
-   static String                   createTableBands;
-   static String                   createTableConcerts;
-   static String                   createTableConcertsBands;
-   static String                   createTableiTunes;
+   protected static String                   createTableBands;
+   protected static String                   createTableConcerts;
+   protected static String                   createTableConcertsBands;
+   protected static String                   createTableiTunes;
 
-   static String                   InsertIntoBands;
-   static String                   InsertIntoConcerts;
-   static String                   InsertIntoConcertsBands;
-   static String                   InsertIntoiTunes;
+   protected static String                   InsertIntoBands;
+   protected static String                   InsertIntoConcerts;
+   protected static String                   InsertIntoConcertsBands;
+   protected static String                   InsertIntoiTunes;
 
-   static String                   joinAllTables;
-   static String                   joinAllTablesStatement;
-   static String                   countBandsStatement;
-   static String                   selectBandsStatement;
-   static String                   countBandsISawStatement;
-   static String                   countEventsStatement;
-   static String                   countBandsISawPerEvent;
-   static String                   countBandsISawPerYear;
-   static String                   countInterpreten;
-   static String                   countSongsPerInterpret;
-   static String                   countMrMetalPlusSongsPerInterpret;
+   protected static String                   joinAllTables;
+   protected static String                   joinAllTablesStatement;
+   protected static String                   countBandsStatement;
+   protected static String                   selectBandsStatement;
+   protected static String                   countBandsISawStatement;
+   protected static String                   countEventsStatement;
+   protected static String                   countBandsISawPerEvent;
+   protected static String                   countBandsISawPerYear;
+   protected static String                   countInterpreten;
+   protected static String                   countSongsPerInterpret;
+   protected static String                   countAlbumsPerInterpret;
+   protected static String                   countMrMetalPlusSongsPerInterpret;
+   protected static String                   showAlbumsPerInterpret;
 
-   public static void initialiseAttributes() {
+   protected static void initialiseAttributes() {
       s = new StandardOutput("*", 80);
       dbPath = "db/bands.db";
       dbo = new DatabaseOperationsSQLite();
@@ -73,11 +75,13 @@ public class DatabaseOperations {
       countBandsISawPerYear = "";
       joinAllTablesStatement = "SELECT Place, Date, Concert, Band" + joinAllTables + "ORDER BY Concert";
       countInterpreten = "SELECT COUNT(DISTINCT Interpret) FROM iTunes";
-      countSongsPerInterpret = "SELECT Interpret, COUNT(Name) FROM iTunes GROUP BY Interpret ORDER BY COUNT(Interpret) DESC";
+      countSongsPerInterpret = "SELECT Band, COUNT(Title) FROM iTunes GROUP BY Band ORDER BY COUNT(Band) DESC";
+      countAlbumsPerInterpret = "SELECT Band, COUNT(DISTINCT Album) FROM iTunes GROUP BY Band ORDER BY COUNT(DISTINCT Album) DESC";
       countMrMetalPlusSongsPerInterpret = "SELECT Band, COUNT(Title) FROM iTunes WHERE Comment = 'Mr. Metal +' GROUP BY Band ORDER BY COUNT(Band) DESC";
+      showAlbumsPerInterpret = "SELECT Band, Album FROM iTunes GROUP BY Album ORDER BY Band, Album";
    }
 
-   public static void writeResultSetCSV(String path, String sqlDMLStatement) {
+   protected static void writeResultSetCSV(String path, String sqlDMLStatement) {
       try {
          io.writeCSVFromTable(path, dbo.tableOutOfQuery(sqlDMLStatement));
       } catch (IOException | SQLException e) {
@@ -85,7 +89,7 @@ public class DatabaseOperations {
       }
    }
 
-   public static void printResultSet(String sqlDMLStatement) {
+   protected static void printResultSet(String sqlDMLStatement) {
       try {
          dbo.tableOutOfQuery(sqlDMLStatement).printTable();
       } catch (SQLException e) {
@@ -93,7 +97,7 @@ public class DatabaseOperations {
       }
    }
 
-   public static Table readCSVIntoTable(String path) {
+   protected static Table readCSVIntoTable(String path) {
       Table table = null;
       try {
          table = io.readCSVIntoTable(path);
@@ -103,7 +107,7 @@ public class DatabaseOperations {
       return table;
    }
 
-   public static void dropTable(String sqlStatement) {
+   protected static void dropTable(String sqlStatement) {
       try {
          dbo.dropTable(sqlStatement);
       } catch (SQLException e) {
@@ -111,7 +115,7 @@ public class DatabaseOperations {
       }
    }
 
-   public static void createTable(String sqlStatement) {
+   protected static void createTable(String sqlStatement) {
       try {
          dbo.sqlDataDefinition(sqlStatement);
       } catch (SQLException e) {
@@ -119,7 +123,7 @@ public class DatabaseOperations {
       }
    }
 
-   public static void insertData(String sqlStatement, Table table) {
+   protected static void insertData(String sqlStatement, Table table) {
       try {
          dbo.insertWithPreparedStatement(sqlStatement, table);
       } catch (SQLException e) {
@@ -127,7 +131,7 @@ public class DatabaseOperations {
       }
    }
 
-   public static void connect(String dbPath) {
+   protected static void connect(String dbPath) {
       try {
          dbo.connect(dbPath);
       } catch (SQLException e) {
@@ -135,7 +139,7 @@ public class DatabaseOperations {
       }
    }
 
-   public static void disconnect() {
+   protected static void disconnect() {
       try {
          dbo.disconnect();
       } catch (SQLException e) {
