@@ -91,7 +91,7 @@ public class DatabaseOperations {
 
    protected static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.tableOutOfQuery(sqlDMLStatement).printTableWithHeadline();
+         dbo.tableOutOfQuery(sqlDMLStatement).printTable();
       } catch (SQLException e) {
          e.printStackTrace();
       }
