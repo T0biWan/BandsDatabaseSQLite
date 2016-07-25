@@ -59,12 +59,12 @@ public class DatabaseOperations {
       createTableBands = "CREATE TABLE IF NOT EXISTS Bands (BID INT PRIMARY KEY NOT NULL, Band TEXT)";
       createTableConcerts = "CREATE TABLE IF NOT EXISTS Concerts (CID INT PRIMARY KEY NOT NULL, Concert TEXT, Date TEXT, Place TEXT)";
       createTableConcertsBands = "CREATE TABLE IF NOT EXISTS ConcertsBands (CID INT, BID INT)";
-      createTableiTunes = "CREATE TABLE IF NOT EXISTS iTunes (Title, Duration, Band, Album, Genre, Year, Comment)";
+      createTableiTunes = "CREATE TABLE IF NOT EXISTS iTunes (Title, Duration, BID, Album, Genre, Year, Comment)";
 
       InsertIntoBands = "INSERT INTO Bands (BID, Band) VALUES (?, ?)";
       InsertIntoConcerts = "INSERT INTO Concerts (CID, Concert, Date, Place) VALUES (?, ?, ?, ?)";
       InsertIntoConcertsBands = "INSERT INTO ConcertsBands (CID, BID) VALUES (?, ?)";
-      InsertIntoiTunes = "INSERT INTO iTunes (Title, Duration, Band, Album, Genre, Year, Comment, BID) VALUES (?, ?, ?, ?, ?, ?, ?)";
+      InsertIntoiTunes = "INSERT INTO iTunes (Title, Duration, BID, Album, Genre, Year, Comment) VALUES (?, ?, ?, ?, ?, ?, ?)";
 
       joinAllTables = " FROM Bands INNER JOIN ConcertsBands ON Bands.BID = ConcertsBands.BID INNER JOIN Concerts On Concerts.CID = ConcertsBands.CID ";
       countBandsStatement = "SELECT COUNT(Band) AS Bands FROM Bands";
@@ -75,10 +75,10 @@ public class DatabaseOperations {
       countBandsISawPerYear = "";
       joinAllTablesStatement = "SELECT Place, Date, Concert, Band" + joinAllTables + "ORDER BY Concert";
       countInterpreten = "SELECT COUNT(DISTINCT Interpret) FROM iTunes";
-      countSongsPerInterpret = "SELECT Band, COUNT(Title) FROM iTunes GROUP BY Band ORDER BY COUNT(Band) DESC";
-      countAlbumsPerInterpret = "SELECT Band, COUNT(DISTINCT Album) FROM iTunes GROUP BY Band ORDER BY COUNT(DISTINCT Album) DESC";
-      countMrMetalPlusSongsPerInterpret = "SELECT Band, COUNT(Title) FROM iTunes WHERE Comment = 'Mr. Metal +' GROUP BY Band ORDER BY COUNT(Band) DESC";
-      showAlbumsPerInterpret = "SELECT Band, Album FROM iTunes GROUP BY Album ORDER BY Band, Album";
+      countSongsPerInterpret = "SELECT BID, COUNT(Title) FROM iTunes GROUP BY BID ORDER BY COUNT(BID) DESC";
+      countAlbumsPerInterpret = "SELECT BID, COUNT(DISTINCT Album) FROM iTunes GROUP BY BID ORDER BY COUNT(DISTINCT Album) DESC";
+      countMrMetalPlusSongsPerInterpret = "SELECT BID, COUNT(Title) FROM iTunes WHERE Comment = 'Mr. Metal +' GROUP BY BID ORDER BY COUNT(BID) DESC";
+      showAlbumsPerInterpret = "SELECT BID, Album FROM iTunes GROUP BY Album ORDER BY BID, Album";
    }
 
    protected static void writeResultSetCSV(String path, String sqlDMLStatement) {
@@ -91,7 +91,7 @@ public class DatabaseOperations {
 
    protected static void printResultSet(String sqlDMLStatement) {
       try {
-         dbo.tableOutOfQuery(sqlDMLStatement).printTable();
+         dbo.tableOutOfQuery(sqlDMLStatement).printTableWithHeadline();
       } catch (SQLException e) {
          e.printStackTrace();
       }
@@ -146,4 +146,24 @@ public class DatabaseOperations {
          e.printStackTrace();
       }
    }
+
+   protected static void concertBandsForeignKeyConstraints() {
+      dbo.changeValueToForeignKey(concertsBands, 0, concerts, 1, 0);
+      dbo.changeValueToForeignKey(concertsBands, 1, bands, 1, 0);
+      try {
+         io.writeCSVFromTable("data/concertsBands.csv", concertsBands);
+      } catch (IOException e) {
+         e.printStackTrace();
+      }
+   }
+
+   protected static void iTunesForeignKeyConstraints() {
+      dbo.changeValueToForeignKey(iTunes, 2, bands, 1, 0);
+      try {
+         io.writeCSVFromTable("data/iTunes.csv", iTunes);
+      } catch (IOException e) {
+         e.printStackTrace();
+      }
+   }
+
 }

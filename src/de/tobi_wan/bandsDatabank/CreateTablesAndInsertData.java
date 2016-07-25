@@ -4,6 +4,8 @@ public class CreateTablesAndInsertData extends DatabaseOperations {
 
    public static void main(String [] args) {
       initialiseAttributes();
+      concertBandsForeignKeyConstraints();
+      iTunesForeignKeyConstraints();
       connect(dbPath);
       createTable(createTableBands);
       createTable(createTableConcerts);

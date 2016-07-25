@@ -1,4 +1,4 @@
-CID;Concert;Date;Place
+﻿CID;Concert;Date;Place
 1;Marek Lieberberg Presents: In Flames;25.10.2008;Berlin
 2;Blooddrunk over Europe;30.01.2009;Berlin
 3;Chaos over Europe Tour;03.03.2009;Berlin
@@ -11,18 +11,18 @@ CID;Concert;Date;Place
 10;World War Tour 2010;23.11.2010;Berlin
 11;Ende der Zeit Tour;20.12.2010;Berlin
 12;Neckbrakers Ball;16.01.2011;Berlin
-13;Fuer immer Punk;05.02.2011;Berlin
+13;Für immer Punk;05.02.2011;Berlin
 14;Moshpit;18.02.2011;Berlin
 15;Paganfest;06.03.2011;Berlin
 16;Moshpit;11.03.2011;Berlin
-17;Ragnaroek;29.04.2011;Lichtenfels
+17;Ragnarök;29.04.2011;Lichtenfels
 18;Rock in Caputh;13.05.2011;Caputh
 19;Metalfest;27.05.2011;Dessau
 20;Wacken Open Air;04.08.2011;Wacken
-21;Summerbreeze;17.08.2011;Dinkelsbuehl
+21;Summerbreeze;17.08.2011;Dinkelsbühl
 22;Rock in Caputh;18.05.2012;Caputh
 23;Metalfest;07.06.2012;Lorely
-24;Die Aerzte - Das Ende ist noch nicht vorbei;17.08.2012;Berlin
+24;Die Ärzte - Das Ende ist noch nicht vorbei;17.08.2012;Berlin
 25;Naquadah EP Release;28.10.2012;Auckland
 26;Hardcore Punk New Zealand;30.11.2012;Auckland
 27;Live at the End of the World Tour;24.01.2013;Auckland
@@ -30,7 +30,7 @@ CID;Concert;Date;Place
 29;Showgirls;06.02.2013;Auckland
 30;Nox A Carnival;27.03.2013;Berlin
 31;West End;14.06.2013;Hamilton
-32;Strassenfest;13.07.2013;Frankfurt and der Oder
+32;Straßenfest;13.07.2013;Frankfurt and der Oder
 33;Wacken Open Air;01.08.2013;Wacken
 34;Spirale;06.09.2013;Berlin
 35;Potse/Drugstore Festival;12.09.2013;Berlin
@@ -42,18 +42,19 @@ CID;Concert;Date;Place
 41;Wacken Open Air;31.07.2014;Wacken
 42;Wolfszeit;29.08.2014;Crispendorf
 43;Pogorausch;12.09.2014;Berlin
-44;Metal Hammer Praesentiert Kreator + Arch Enemy;09.12.2014;Berlin
+44;Metal Hammer Präsentiert Kreator + Arch Enemy;09.12.2014;Berlin
 45;Thrash im Tommy Haus;21.03.2015;Berlin
 46;Thrash im Tommy Haus;23.04.2015;Berlin
 47;Rock in Caputh;08.05.2015;Caputh
-48;Wacken Open Air;30.07.2015;Wacken
-49;Berlin Thrash Insanity;09.04.2016;Berlin
-50;The Return of the One Man Army;21.04.2016;Berlin
-51;Rock in Caputh;20.05.2016;Caputh
-52;Iron Maiden - The Book Of Souls Tour;31.05.2016;Berlin
-53;Golm Rockt;18.06.2016;Golm
-54;Feuertanz;23.06.2016;Abenberg
-55;Rammstein;08.07.2016;Berlin
-56;Santiano Live & Open Air;16.07.2016;Berlin
-57;Wacken Open Air;03.08.2016;Wacken
-58;Steel Panther;01.10.2016;Berlin
+48;Böhse Für's Leben;27.06.2015;Hockenheim
+49;Wacken Open Air;30.07.2015;Wacken
+50;Berlin Thrash Insanity;09.04.2016;Berlin
+51;The Return of the One Man Army;21.04.2016;Berlin
+52;Rock in Caputh;20.05.2016;Caputh
+53;Iron Maiden - The Book Of Souls Tour;31.05.2016;Berlin
+54;Golm Rockt;18.06.2016;Golm
+55;Feuertanz;23.06.2016;Abenberg
+56;Rammstein;08.07.2016;Berlin
+57;Santiano Live & Open Air;16.07.2016;Berlin
+58;Wacken Open Air;03.08.2016;Wacken
+59;Steel Panther;01.10.2016;Berlin

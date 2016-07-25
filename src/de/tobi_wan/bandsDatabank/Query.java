@@ -4,7 +4,7 @@ public class Query extends DatabaseOperations {
    public static void main(String [] args) {
       initialiseAttributes();
       connect(dbPath);
-      printResultSet(countBandsISawStatement);
+      printResultSet(countMrMetalPlusSongsPerInterpret);
       disconnect();
    }
 }

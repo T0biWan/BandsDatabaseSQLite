@@ -1,4 +1,4 @@
-BID;Band
+﻿BID;Band
 1;4LYN
 2;Abbruch
 3;Accept
@@ -23,7 +23,7 @@ BID;Band
 22;Behemoth
 23;Bei Bedarf
 24;Benighted
-25;Bifroest
+25;Bifröst
 26;Blaas Of Glory
 27;Black Messiah
 28;Blackleaf Gardens
@@ -32,214 +32,216 @@ BID;Band
 31;Bleeding Utopia
 32;Blind Guardian
 33;Bloodbath
-34;Bolt Thrower
-35;Bonsai Kitten
-36;Bran Barr
-37;Bucovina
-38;Burden Of Grief
-39;Burry the Ordinary
-40;Caliban
-41;Callejon
-42;Cannibal Corpse
-43;Carcass
-44;Catamenia
-45;Chambers
-46;Cherry Bomb
-47;Children Of Bodom
-48;Chronosphere
-49;Cobra Khan
-50;Conception Divided
-51;Coppelius
-52;Cornes Vagantes
-53;Cradle of Filth
-54;Cranial
-55;Cryptopsy
-56;Ctulu
-57;Cultus Ferox
-58;Cut my skin
-59;Dalriada
-60;Danzig
-61;Das Pack
-62;Dead Means Nothing
-63;Death Angel
-64;Debauchery
-65;Decapitated
-66;Deep Purple
-67;Degreaded
-68;Der W
-69;Destruction
-70;Diablo
-71;Die Apokalyptischen Reiter
-72;Die Aerzte
-73;Die Ekligen
-74;Disneyland after Dark
-75;Doro
-76;Draco Faucium
-77;Dritte Wahl
-78;Ektomorf
-79;Eluveitie
-80;Emergency Gate
-81;Empower
-82;Endstille
-83;Ensiferum
-84;Equilibirum
-85;Europe
-86;Everytime I Die
-87;Ex Deo
-88;Exceeded
-89;Excrementory Grindfuckers
-90;Feuerschwanz
-91;Fiddlers Green
-92;Final Deprivity
-93;Finntroll
-94;Finsterforst
-95;Fleshgod Apocalyps
-96;Frei.Wild
-97;Fucking Hostile
-98;Furunkulus
-99;Ghost
-100;Gojira
-101;Gore
-102;Grave Digger
-103;Green Day
-104;Grossstadtgefluester
-105;Hammercult
-106;Hasenscheisse
-107;Heaven Shall Burn
-108;Heidevolk
-109;Heidra
-110;Helloween
-111;Helrunar
-112;Horch
-113;Huntress
-114;Ignis Fatuu
-115;immortal
-116;Impact
-117;Impius Mundi
-118;In Extremo
-119;In Flames
-120;Inglorious
-121;Iron Maiden
-122;J.B.O.
-123;Judas Priest
-124;Kalmah
-125;Kataklysm
-126;Keule
-127;Killswitch Engage
-128;Kitsch
-129;Kivimetsaen Druidi
-130;KMPFSPRT
-131;Koller
-132;Korpiklaani
-133;Kotzreiz
-134;Kreator
-135;Krisiun
-136;Kvelertak
-137;Left Eye Blind
-138;Legio Mortis
-139;Legion of the Damned
-140;Lord of the Lost
-141;Lordi
-142;Maggies Farm
-143;Magna Mortalis
-144;Manegarm
-145;Marduk
-146;Maskara
-147;Mayhem
-148;Megabosch
-149;Megadeth
-150;Milking the Goatmachine
-151;Misery Index
-152;Montreal
-153;Moonsorrow
-154;Morbid Angel
-155;Motoerhead
-156;Mr. Hurley & die Pulveraffen
-157;Mr. Irish Bastard
-158;Naquadah
-159;Nattaravnur
-160;Negator
-161;Nicht der Rede Wert
-162;Nightwish
-163;Obituary
-164;Obscurity
-165;Odroerir
-166;Oomph!
-167;Ozzy Osbourne
-168;Pampatut
-169;Pantheon I
-170;Path of Golconda
-171;Peaches
-172;Phantom Winter
-173;Piratenpabst
-174;Polaris
-175;Powerwolf
-176;Punch 'n' Judy
-177;Purify
-178;Pyrates!
-179;Radio Havanna
-180;Rage
-181;Rammstein
-182;Reactory
-183;Red Cardinal
-184;Restless
-185;Running Wild
-186;Sabaton
-187;Sabiendas
-188;Saltatio Mortis
-189;Santiano
-190;Saxon
-191;Scar Symmetry
-192;Scorned
-193;Sepultura
-194;Shitripper
-195;Skadika
-196;Skate Chords
-197;Skid Row
-198;Slayer
-199;Smoke Blow
-200;Sodom
-201;Soko-M
-202;Sonic Syndicate
-203;Splitting Society
-204;Steel Panther
-205;Steel Sisters
-206;Steelwing
-207;Struwelpeter
-208;Subway to sally
-209;Suicidal Angels
-210;Swashbuckle
-211;Taake
-212;The Bleeders
-213;The Haunted
-214;The Incredible Herrengedeck
-215;The Other
-216;The Raven Age
-217;The Stranglers
-218;The Toten Crackhuren im Kofferraum
-219;These Four Walls
-220;Thyrfing
-221;Torture Pit
-222;Trallery
-223;Tranquilizer
-224;Trivium
-225;Trollfest
-226;Turisas
-227;Twilight of the Gods
-228;TYR
-229;U.D.O.
-230;Unleashed
-231;V8 Wankers
-232;Vader
-233;Vagabond
-234;Valkyrja
-235;Varg
-236;Versengold
-237;Vicious Rumours
-238;Vogelfrey
-239;Vollbeat
-240;Vomitory
-241;Vreid
-242;Wacken Firefighters
-243;Wintersun
-244;Wolfchant
+34;Böhse Onkelz
+35;Bolt Thrower
+36;Bonsai Kitten
+37;Bran Barr
+38;Bucovina
+39;Burden Of Grief
+40;Burry the Ordinary
+41;Caliban
+42;Callejon
+43;Cannibal Corpse
+44;Carcass
+45;Catamenia
+46;Chambers
+47;Cherry Bomb
+48;Children Of Bodom
+49;Chronosphere
+50;Cobra Khan
+51;Conception Divided
+52;Coppelius
+53;Cornes Vagantes
+54;Cradle of Filth
+55;Cranial
+56;Cryptopsy
+57;Ctulu
+58;Cultus Ferox
+59;Cut my skin
+60;Dalriada
+61;Danzig
+62;Das Pack
+63;Dead Means Nothing
+64;Death Angel
+65;Debauchery
+66;Decapitated
+67;Deep Purple
+68;Degreaded
+69;Der W
+70;Destruction
+71;Diablo
+72;Die Apokalyptischen Reiter
+73;Die Ärzte
+74;Die Ekligen
+75;Disneyland after Dark
+76;Doro
+77;Draco Faucium
+78;Dritte Wahl
+79;Ektomorf
+80;Eluveitie
+81;Emergency Gate
+82;Empower
+83;Endstille
+84;Ensiferum
+85;Equilibirum
+86;Europe
+87;Everytime I Die
+88;Ex Deo
+89;Exceeded
+90;Excrementory Grindfuckers
+91;Feuerschwanz
+92;Fiddlers Green
+93;Final Deprivity
+94;Finntroll
+95;Finsterforst
+96;Fleshgod Apocalyps
+97;Frei.Wild
+98;Fucking Hostile
+99;Furunkulus
+100;Ghost
+101;Gojira
+102;Gore
+103;Grave Digger
+104;Green Day
+105;Großstadtgeflüster
+106;Hammercult
+107;Hasenscheisse
+108;Heaven Shall Burn
+109;Heidevolk
+110;Heidra
+111;Helloween
+112;Helrunar
+113;Horch
+114;Huntress
+115;Ignis Fatuu
+116;immortal
+117;Impact
+118;Impius Mundi
+119;In Extremo
+120;In Flames
+121;Inglorious
+122;Iron Maiden
+123;J.B.O.
+124;Judas Priest
+125;Kalmah
+126;Kataklysm
+127;Keule
+128;Killswitch Engage
+129;Kitsch
+130;Kivimetsän Druidi
+131;KMPFSPRT
+132;Koller
+133;Korpiklaani
+134;Kotzreiz
+135;Kreator
+136;Krisiun
+137;Kvelertak
+138;Left Eye Blind
+139;Legio Mortis
+140;Legion of the Damned
+141;Lord of the Lost
+142;Lordi
+143;Maggies Farm
+144;Magna Mortalis
+145;Manegarm
+146;Marduk
+147;Maskara
+148;Mayhem
+149;Megabosch
+150;Megadeth
+151;Milking the Goatmachine
+152;Misery Index
+153;Montreal
+154;Moonsorrow
+155;Morbid Angel
+156;Motörhead
+157;Mr. Hurley & die Pulveraffen
+158;Mr. Irish Bastard
+159;Naquadah
+160;Nattaravnur
+161;Negator
+162;Nicht der Rede Wert
+163;Nightwish
+164;Obituary
+165;Obscurity
+166;Odroerir
+167;Oomph!
+168;Oonagh
+169;Ozzy Osbourne
+170;Pampatut
+171;Pantheon I
+172;Path of Golconda
+173;Peaches
+174;Phantom Winter
+175;Piratenpabst
+176;Polaris
+177;Powerwolf
+178;Punch 'n' Judy
+179;Purify
+180;Pyrates!
+181;Radio Havanna
+182;Rage
+183;Rammstein
+184;Reactory
+185;Red Cardinal
+186;Restless
+187;Running Wild
+188;Sabaton
+189;Sabiendas
+190;Saltatio Mortis
+191;Santiano
+192;Saxon
+193;Scar Symmetry
+194;Scorned
+195;Sepultura
+196;Shitripper
+197;Skadika
+198;Skate Chords
+199;Skid Row
+200;Slayer
+201;Smoke Blow
+202;Sodom
+203;Soko-M
+204;Sonic Syndicate
+205;Splitting Society
+206;Steel Panther
+207;Steel Sisters
+208;Steelwing
+209;Struwelpeter
+210;Subway to sally
+211;Suicidal Angels
+212;Swashbuckle
+213;Taake
+214;The Bleeders
+215;The Haunted
+216;The Incredible Herrengedeck
+217;The Other
+218;The Raven Age
+219;The Stranglers
+220;The Toten Crackhuren im Kofferraum
+221;These Four Walls
+222;Thyrfing
+223;Torture Pit
+224;Trallery
+225;Tranquilizer
+226;Trivium
+227;Trollfest
+228;Turisas
+229;Twilight of the Gods
+230;TYR
+231;U.D.O.
+232;Unleashed
+233;V8 Wankers
+234;Vader
+235;Vagabond
+236;Valkyrja
+237;Varg
+238;Versengold
+239;Vicious Rumours
+240;Vogelfrey
+241;Vollbeat
+242;Vomitory
+243;Vreid
+244;Wacken Firefighters
+245;Wintersun
+246;Wolfchant
