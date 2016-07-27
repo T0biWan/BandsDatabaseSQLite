@@ -1,247 +1,630 @@
 ﻿BID;Band
-1;4LYN
-2;Abbruch
-3;Accept
-4;Adorned brood
-5;Adversor
-6;Agnostic Front
-7;Agrypnie
-8;Airbourne
-9;Akrasatrum
-10;Alcest
-11;Alestorm
-12;Alice Cooper
-13;Amon Amarth
-14;Andras
-15;Annihilator
-16;Arafel
-17;Arch Enemy
-18;As I Lay Dying
-19;Asenblut
-20;Atomwinter
-21;Battalion
-22;Behemoth
-23;Bei Bedarf
-24;Benighted
-25;Bifröst
-26;Blaas Of Glory
-27;Black Messiah
-28;Blackleaf Gardens
-29;Blackshore
-30;Blakes Vengeance
-31;Bleeding Utopia
-32;Blind Guardian
-33;Bloodbath
-34;Böhse Onkelz
-35;Bolt Thrower
-36;Bonsai Kitten
-37;Bran Barr
-38;Bucovina
-39;Burden Of Grief
-40;Burry the Ordinary
-41;Caliban
-42;Callejon
-43;Cannibal Corpse
-44;Carcass
-45;Catamenia
-46;Chambers
-47;Cherry Bomb
-48;Children Of Bodom
-49;Chronosphere
-50;Cobra Khan
-51;Conception Divided
-52;Coppelius
-53;Cornes Vagantes
-54;Cradle of Filth
-55;Cranial
-56;Cryptopsy
-57;Ctulu
-58;Cultus Ferox
-59;Cut my skin
-60;Dalriada
-61;Danzig
-62;Das Pack
-63;Dead Means Nothing
-64;Death Angel
-65;Debauchery
-66;Decapitated
-67;Deep Purple
-68;Degreaded
-69;Der W
-70;Destruction
-71;Diablo
-72;Die Apokalyptischen Reiter
-73;Die Ärzte
-74;Die Ekligen
-75;Disneyland after Dark
-76;Doro
-77;Draco Faucium
-78;Dritte Wahl
-79;Ektomorf
-80;Eluveitie
-81;Emergency Gate
-82;Empower
-83;Endstille
-84;Ensiferum
-85;Equilibirum
-86;Europe
-87;Everytime I Die
-88;Ex Deo
-89;Exceeded
-90;Excrementory Grindfuckers
-91;Feuerschwanz
-92;Fiddlers Green
-93;Final Deprivity
-94;Finntroll
-95;Finsterforst
-96;Fleshgod Apocalyps
-97;Frei.Wild
-98;Fucking Hostile
-99;Furunkulus
-100;Ghost
-101;Gojira
-102;Gore
-103;Grave Digger
-104;Green Day
-105;Großstadtgeflüster
-106;Hammercult
-107;Hasenscheisse
-108;Heaven Shall Burn
-109;Heidevolk
-110;Heidra
-111;Helloween
-112;Helrunar
-113;Horch
-114;Huntress
-115;Ignis Fatuu
-116;immortal
-117;Impact
-118;Impius Mundi
-119;In Extremo
-120;In Flames
-121;Inglorious
-122;Iron Maiden
-123;J.B.O.
-124;Judas Priest
-125;Kalmah
-126;Kataklysm
-127;Keule
-128;Killswitch Engage
-129;Kitsch
-130;Kivimetsän Druidi
-131;KMPFSPRT
-132;Koller
-133;Korpiklaani
-134;Kotzreiz
-135;Kreator
-136;Krisiun
-137;Kvelertak
-138;Left Eye Blind
-139;Legio Mortis
-140;Legion of the Damned
-141;Lord of the Lost
-142;Lordi
-143;Maggies Farm
-144;Magna Mortalis
-145;Manegarm
-146;Marduk
-147;Maskara
-148;Mayhem
-149;Megabosch
-150;Megadeth
-151;Milking the Goatmachine
-152;Misery Index
-153;Montreal
-154;Moonsorrow
-155;Morbid Angel
-156;Motörhead
-157;Mr. Hurley & die Pulveraffen
-158;Mr. Irish Bastard
-159;Naquadah
-160;Nattaravnur
-161;Negator
-162;Nicht der Rede Wert
-163;Nightwish
-164;Obituary
-165;Obscurity
-166;Odroerir
-167;Oomph!
-168;Oonagh
-169;Ozzy Osbourne
-170;Pampatut
-171;Pantheon I
-172;Path of Golconda
-173;Peaches
-174;Phantom Winter
-175;Piratenpabst
-176;Polaris
-177;Powerwolf
-178;Punch 'n' Judy
-179;Purify
-180;Pyrates!
-181;Radio Havanna
-182;Rage
-183;Rammstein
-184;Reactory
-185;Red Cardinal
-186;Restless
-187;Running Wild
-188;Sabaton
-189;Sabiendas
-190;Saltatio Mortis
-191;Santiano
-192;Saxon
-193;Scar Symmetry
-194;Scorned
-195;Sepultura
-196;Shitripper
-197;Skadika
-198;Skate Chords
-199;Skid Row
-200;Slayer
-201;Smoke Blow
-202;Sodom
-203;Soko-M
-204;Sonic Syndicate
-205;Splitting Society
-206;Steel Panther
-207;Steel Sisters
-208;Steelwing
-209;Struwelpeter
-210;Subway to sally
-211;Suicidal Angels
-212;Swashbuckle
-213;Taake
-214;The Bleeders
-215;The Haunted
-216;The Incredible Herrengedeck
-217;The Other
-218;The Raven Age
-219;The Stranglers
-220;The Toten Crackhuren im Kofferraum
-221;These Four Walls
-222;Thyrfing
-223;Torture Pit
-224;Trallery
-225;Tranquilizer
-226;Trivium
-227;Trollfest
-228;Turisas
-229;Twilight of the Gods
-230;TYR
-231;U.D.O.
-232;Unleashed
-233;V8 Wankers
-234;Vader
-235;Vagabond
-236;Valkyrja
-237;Varg
-238;Versengold
-239;Vicious Rumours
-240;Vogelfrey
-241;Vollbeat
-242;Vomitory
-243;Vreid
-244;Wacken Firefighters
-245;Wintersun
-246;Wolfchant
+1;257ers
+2;3 Doors Down
+3;3 Inches Of Blood
+4;4 Arm
+5;4 Promille
+6;4LYN
+7;A Million Ways To Die In The West
+8;A Skylit Drive
+9;Abadden
+10;Abbruch
+11;Abfukk
+12;Absurd
+13;AC/DC
+14;Accept
+15;Adorned brood
+16;Adversor
+17;Aerosmith
+18;Aggravator
+19;Aggression
+20;Aggropunk
+21;Agnostic Front
+22;Agrypnie
+23;Ahead To The Sea
+24;Airbourne
+25;Akrasatrum
+26;Alan Silvestri
+27;Alarmsignal
+28;Alcest
+29;Alesana
+30;Alestorm
+31;Alexandre Desplat
+32;Alexey Pehov
+33;Alexisonfire
+34;Alice Cooper
+35;All Shall Perish
+36;All That Remains
+37;Amaranthe
+38;America
+39;Amon Amarth
+40;Andras
+41;Andrea Bocelli
+42;Andreas Eschbach
+43;Anfall
+44;Angelwitch
+45;Animals
+46;Annihilator
+47;Anthony Gonzalez
+48;Anthrax
+49;Anti-Flag
+50;Antipeewee
+51;Anvil
+52;Apostasy
+53;Arafel
+54;Arch Enemy
+55;Arkayic Revolt
+56;Arkona
+57;As Blood Runs Black
+58;As I Lay Dying
+59;Asenblut
+60;At The Drive-In
+61;Atomwinter
+62;Atreyu
+63;Autograph
+64;Auweia!
+65;Avicii
+66;Axegressor
+67;Axel Rudi Pell
+68;Bachman-Turner Overdrive
+69;Bap
+70;Barenaked Ladies
+71;Basil Poledouris
+72;Battalion
+73;Battle Beast
+74;Battlecross
+75;Beastie Boys
+76;Behemoth
+77;Bei Bedarf
+78;Ben Lee
+79;Benighted
+80;Berliner Philharmoniker
+81;Berliner Weisse
+82;Betontod
+83;Bifröst
+84;Big M
+85;Billy Idol
+86;Billy Joel
+87;Billy Talent
+88;Blaas Of Glory
+89;Black Bomb A
+90;Black Label Society
+91;Black Messiah
+92;Black Sabbath
+93;Blackleaf Gardens
+94;Blackshore
+95;Blakes Vengeance
+96;Bleeding Utopia
+97;blessthefall
+98;Blind Guardian
+99;Blondie
+100;Bloodbath
+101;Bloodline
+102;Bloodsucking Zombies from outer Space
+103;Blue Öyster Cult
+104;Bob Dylan
+105;Böhse Onkelz
+106;Bolt Thrower
+107;Bon Jovi
+108;Bonnie Tyler
+109;Bonsai Kitten
+110;Bornholm
+111;Boston
+112;Bran Barr
+113;Bring Me The Horizon
+114;Brocas Helm
+115;Broilers
+116;Bryan Adams
+117;Bucovina
+118;Budgie
+119;Burden Of Grief
+120;Burry the Ordinary
+121;Caine
+122;Caliban
+123;Callejon
+124;Candlemass
+125;Cannibal Corpse
+126;Carcass
+127;Carolin Kebekus
+128;Catamenia
+129;Cervello
+130;Chambers
+131;Cherry Bomb
+132;Children Of Bodom
+133;Christoph Hardebusch
+134;Christopher Paolini
+135;Chronosphere
+136;Civet
+137;Cloven Hoof
+138;Cobra Khan
+139;Cock Sparrer
+140;Colin Hay
+141;Conception Divided
+142;Coppelius
+143;Cornes Vagantes
+144;Coroner
+145;Cradle of Filth
+146;Craig Douglas
+147;Cranial
+148;Crashdïet
+149;Craving
+150;Creedence Clearwater Revival
+151;Cripper
+152;Cryptopsy
+153;Ctulu
+154;Cultus Ferox
+155;Cut my skin
+156;Dalriada
+157;Dan Brown
+158;Danzig
+159;Dark Fortress
+160;Darude
+161;Das Pack
+162;David Bowie
+163;David Hasselhoff
+164;David Wong
+165;Dead Cult Diaries
+166;Dead Means Nothing
+167;Death
+168;Death Angel
+169;Death Cab For Cutie
+170;Deathstars
+171;Debauchery
+172;Decapitated
+173;Deep Purple
+174;Def Leppard
+175;Degreaded
+176;Delain
+177;Demon
+178;Der W
+179;Destruction
+180;DevilDriver
+181;Diablo
+182;Diamond Head
+183;Die Apokalyptischen Reiter
+184;Die Arwinger
+185;Die Ärzte
+186;Die Dr3i
+187;Die Drei Fragezeichen
+188;Die Drei Fragezeichen - Special
+189;Die Ekligen
+190;Die Krupps
+191;Die Toten Hosen
+192;Dimmu Borgir
+193;Dio
+194;Dire Straits
+195;Disneyland after Dark
+196;Dokken
+197;Don McLean
+198;Donald Fasion & Zach Braff
+199;Doro
+200;Doro Pesch
+201;Draco Faucium
+202;Dragonforce
+203;Dritte Wahl
+204;Dropkick Murphys
+205;Eagle-Eye Cherry
+206;Eagles
+207;Earth, Wind & Fire
+208;Edge Of Attack
+209;Edward Sharpe & The Magnetic Zeros
+210;Eisenpimmel
+211;Ektomorf
+212;Eluveitie
+213;Emergency Gate
+214;Emperor
+215;Empower
+216;Endeverafter
+217;Endstille
+218;Ennio Morricone
+219;Ensiferum
+220;Enslaved
+221;Equilibirum
+222;Equilibrium
+223;Eric Fish
+224;Europe
+225;Evanescence
+226;Everytime I Die
+227;Ex Deo
+228;Exceeded
+229;Excrementory Grindfuckers
+230;Exodus
+231;Falco
+232;Falkenbach
+233;Far From Finished
+234;Feine Sahne Fischfilet
+235;Fettes Brot
+236;Feuerschwanz
+237;Fiddlers Green
+238;Fiddler's Green
+239;Final Deprivity
+240;Finntroll
+241;Finsterforst
+242;Firehouse
+243;Firkin
+244;Fleetwood Mac
+245;Fleshgod Apocalyps
+246;Flogging Molly
+247;Frank Schätzing
+248;Freedom Call
+249;Frei.Wild
+250;Fritz Kalkbrenner
+251;Fucking Hostile
+252;Furunkulus
+253;George R. R. Martin
+254;Gerbenok
+255;Ghost
+256;Girlschool
+257;Gloryhammer
+258;Goitsche Front
+259;Gojira
+260;Golden Earring
+261;Gore
+262;Grave Digger
+263;Green Day
+264;Großstadtgeflüster
+265;Guitar Tribute Players
+266;Guns 'n' Roses
+267;Hammercult
+268;Hammerfall
+269;Harold Faltermeyer
+270;Harold Faltermeyer & Steve Stevens
+271;Harry Potter
+272;Hasenscheisse
+273;Hatebreed
+274;Haudegen
+275;Heart
+276;Heaven Shall Burn
+277;Heidevolk
+278;Heidra
+279;Heinz Hönig
+280;Helloween
+281;Helrunar
+282;Horch
+283;Huey Lewis & The News
+284;Hughes Turner Project
+285;Huntress
+286;Iced Earth
+287;Iggy Pop
+288;Ignis Fatuu
+289;immortal
+290;Impact
+291;Impius Mundi
+292;In Extremo
+293;In Extremo feat. Der Graf
+294;In Extremo feat. Mille Petrozza
+295;In Flames
+296;In This Moment
+297;In This Moment feat. Brent Smith
+298;Inglorious
+299;Iron Maiden
+300;J. L. Bourne
+301;J.B.O.
+302;JavaOne
+303;Jennifer Rostock
+304;Joe Abercrombie
+305;John Denver
+306;John Travolta & Olivia Newton
+307;Johnny Cash
+308;Joshua Radin
+309;Journey
+310;Judas Priest
+311;Jürgen Großmeyer
+312;Jussi Adler-Olsen
+313;K.M.F.D.M.
+314;Kai Meyer
+315;Kalmah
+316;Kansas
+317;Kassierer
+318;Kataklysm
+319;Katrina & The Waves
+320;Katzenjammer
+321;Kenny Loggins
+322;Keule
+323;Killswitch Engage
+324;King Diamond
+325;KISS
+326;Kitsch
+327;Kitty In A Casket
+328;Kivimetsän Druidi
+329;KMPFSPRT
+330;Knallfrosh Elektro featuring Lulu
+331;Koller
+332;Korpiklaani
+333;Kotzreiz
+334;KrawallBrüder
+335;Kreator
+336;Krisiun
+337;Kvelertak
+338;Lacuna Coil
+339;Laith Al-Deen
+340;Lashdown
+341;Leaves' Eyes
+342;Led Zeppelin
+343;Left Eye Blind
+344;Leftside
+345;Legio Mortis
+346;Legion of the Damned
+347;Linkin Park
+348;Lloyd Alexander
+349;Loikaemie
+350;Lord of the Lost
+351;Lordi
+352;Lucy Spraggan
+353;Lulu und die Einhornfarm
+354;Mad Sin
+355;Madrost
+356;Maggies Farm
+357;Magna Mortalis
+358;Malukah
+359;Manegarm
+360;Månegarm
+361;Manowar
+362;Marc Uwe Kling
+363;Marcin Przybylowicz
+364;Marcus Heitz
+365;Marduk
+366;Marilyn Manson
+367;Markus Heitz
+368;Marvin Gaye
+369;Maskara
+370;Mastodon
+371;Matchbox Twenty
+372;Matt Ryd
+373;Mayhem
+374;Meat Loaf
+375;Meditation - Du Hast Pause
+376;Megabosch
+377;Megadeath
+378;Megadeth
+379;Megaherz
+380;Men at Work
+381;Metal Church
+382;Metallica
+383;Michael Schenker
+384;Midnight Oil
+385;Mighty Oaks
+386;Milking the Goatmachine
+387;Minas Morgul
+388;Ministry
+389;Mirrorthrone
+390;Mischa-Sarim Vérollet
+391;Misery Index
+392;Misfits
+393;Montreal
+394;Moonsorrow
+395;Morbid Angel
+396;Mötley Crüe
+397;Motörhead
+398;Mr. Hurley & die Pulveraffen
+399;Mr. Irish Bastard
+400;Muff Daddy
+401;Mumford & Sons
+402;Münchener Freiheit
+403;Naquadah
+404;Nattaravnur
+405;Negator
+406;Neil Young
+407;New Kids
+408;Nicht der Rede Wert
+409;Nightwish
+410;Nordheim
+411;Obituary
+412;Obscurity
+413;Odroerir
+414;Of Monsters and Men
+415;Olli Schulz
+416;Oomph!
+417;Oonagh
+418;Ostrogoth
+419;Outcast
+420;Overkill
+421;Ozzy Osbourne
+422;Pampatut
+423;Pantera
+424;Pantheon I
+425;Papa Roach
+426;Passenger
+427;Pastor & Mrs. Jim Colerick
+428;Path of Golconda
+429;Patrick Rothfuss
+430;Paul Simon
+431;Peaches
+432;Perkele
+433;Peter Gabriel
+434;Phantom Winter
+435;Phil Collins
+436;Pink Floyd
+437;Pipes And Pints
+438;Piratenpabst
+439;Poison
+440;Polaris
+441;Powerwolf
+442;Prong
+443;Punch 'n' Judy
+444;Punch'n'Judy
+445;Purify
+446;Pyogenesis
+447;Pyrates!
+448;Queen
+449;Queens of the Stone Age
+450;Quiet Riot
+451;Racer X
+452;Radio Havanna
+453;Rage
+454;Rage Against The Machine
+455;Raised Fist
+456;Ramin Djawadi
+457;Rammstein
+458;Ratt
+459;Ray Parker, Jr.
+460;Reactory
+461;Reckless Love
+462;Red Cardinal
+463;Restless
+464;Riger
+465;Riot
+466;Rise Against
+467;Rob Cantor
+468;Rod Stewart
+469;Romano
+470;Rotz & Wasser
+471;Running Wild
+472;Sabaton
+473;Sabiendas
+474;Saltatio Mortis
+475;Sanctuary
+476;Santiano
+477;Savatage
+478;Saxon
+479;Scar Symmetry
+480;Schandmaul
+481;Scorned
+482;Scorpions
+483;Scotland Yard
+484;Scott McKenzie
+485;Screen Team
+486;SDP
+487;Sebastian Fitzek
+488;Sepultura
+489;Sergej Lukianenko
+490;Sharon Shannon
+491;Shitripper
+492;Sick Puppies
+493;Simon Beckett
+494;Sir Arthur Conan Doyle
+495;Skadika
+496;Skate Chords
+497;Skid Row
+498;Skyline
+499;Slade
+500;Slayer
+501;Smoke Blow
+502;Sodom
+503;Soko-M
+504;Sondaschule
+505;Sonic Syndicate
+506;Splitting Society
+507;SS-Kaliert
+508;Stage Bottles
+509;Static-X
+510;Steel Panther
+511;Steel Sisters
+512;Steelwing
+513;Steppenwolf
+514;Steve Winwood
+515;Sting
+516;Stormwarrior
+517;Struwelpeter
+518;Subway to sally
+519;Suicidal Angels
+520;Suzanne Collins
+521;Swashbuckle
+522;Sweet Brown
+523;Sweet Savage
+524;Taake
+525;Tenacious D
+526;Testament
+527;The Bleeders
+528;The Bones
+529;The Boomtown Rats
+530;The Business
+531;The Buzzcocks
+532;The Byrds
+533;The Countdown Kids
+534;The Drums
+535;The Elder Sroll's V: Skyrim
+536;The Exploited
+537;The Generators
+538;The Goo Goo Dolls
+539;The Haunted
+540;The Hellion
+541;The Incredible Herrengedeck
+542;The King Blues
+543;The Lonely Island
+544;The Lonely Island feat. Justin Timberlake
+545;The Lonely Island feat. Natalie Portman & Chris Parnell
+546;The New Basement Tapes
+547;The Offspring
+548;The Other
+549;The Peacocks
+550;The Police
+551;The Raven Age
+552;The Rolling Stones
+553;The Shins
+554;The Spookshow
+555;The Stranglers
+556;The Toten Crackhuren im Kofferraum
+557;The Unknown
+558;The White Stripes
+559;The Who
+560;The Yogscast
+561;These Four Walls
+562;Thomas Bergersen
+563;Threat Signal
+564;Thyrfing
+565;Timothy DeLaGhetto
+566;Timothy Ferriss
+567;Tina Turner
+568;Tom Jacuba
+569;Torfrock
+570;Torture Pit
+571;Toto
+572;Tracy Chapman
+573;Trallery
+574;Tranquilizer
+575;Trigger The Bloodshed
+576;Trivium
+577;Trollfest
+578;Troopers
+579;Turisas
+580;Tvangeste
+581;Twilight of the Gods
+582;Twisted Sister
+583;Tygers Of Pan Tang
+584;TYR
+585;Týr
+586;U.D.O.
+587;Udo Jürgens
+588;Ufo
+589;Ulrike Schweikert
+590;Unantastbar
+591;Unleashed
+592;Uriah Heep
+593;V8 Wankers
+594;Vader
+595;Vagabond
+596;Valkyrja
+597;Van Halen
+598;Vangelis
+599;Varg
+600;Veronica Roth
+601;Versengold
+602;Vicious Rumours
+603;Village People
+604;Vogelfrey
+605;Vollbeat
+606;Volxsturm
+607;Vomitory
+608;Vreid
+609;W.A.S.P.
+610;Wacken Firefighters
+611;Wardruna
+612;Warlock
+613;Warrant
+614;Westernhagen
+615;Wham!
+616;Wheatus
+617;White Lion
+618;Whitesnake
+619;Wintersun
+620;Witt Heppner
+621;Wolfchant
+622;Wolfgang
+623;Wolfgang Hohlbein
+624;Wolfsheim
+625;Wolfsmond
+626;Ylvis
+627;Yngwie Malmsteen
+628;Zaunpfahl
+629;ZZ Top

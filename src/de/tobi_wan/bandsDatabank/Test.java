@@ -15,10 +15,10 @@ public class Test extends DatabaseOperations {
       insertData(InsertIntoConcerts, concerts);
       insertData(InsertIntoConcertsBands, concertsBands);
       insertData(InsertIntoiTunes, iTunes);
-      printResultSet("SELECT * FROM Bands LIMIT 10");
-      printResultSet("SELECT * FROM Concerts LIMIT 10");
-      printResultSet("SELECT * FROM ConcertsBands LIMIT 10");
-      printResultSet("SELECT * FROM iTunes LIMIT 10");
+      printSimpleResultSet("SELECT * FROM Bands LIMIT 10");
+      printSimpleResultSet("SELECT * FROM Concerts LIMIT 10");
+      printSimpleResultSet("SELECT * FROM ConcertsBands LIMIT 10");
+      printSimpleResultSet("SELECT * FROM iTunes LIMIT 10");
       dropTable("Bands");
       dropTable("Concerts");
       dropTable("ConcertsBands");

@@ -89,9 +89,17 @@ public class DatabaseOperations {
       }
    }
 
-   protected static void printResultSet(String sqlDMLStatement) {
+   protected static void printSimpleResultSet(String sqlDMLStatement) {
       try {
          dbo.tableOutOfQuery(sqlDMLStatement).printTable();
+      } catch (SQLException e) {
+         e.printStackTrace();
+      }
+   }
+
+   protected static void printComplexResultSet(String sqlDMLStatement) {
+      try {
+         dbo.tableWithColumnNamesOutOfQuery(sqlDMLStatement).printTable();
       } catch (SQLException e) {
          e.printStackTrace();
       }
