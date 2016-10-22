@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 import tobi_wan.IO.IOStreamTableCSV;
 import tobi_wan.dataStructure.Table;
-import tobi_wan.databaseOperations.DatabaseOperationsSQLite;
 import tobi_wan.support.StandardOutput;
+import tobiwan.databaseOperations.DatabaseOperationsSQLite;
 
 
 
